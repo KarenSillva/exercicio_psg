@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter" ;
+}
+
+.bg-neymar{
+    background: url(/img/bg.neymar.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.logo img{
+    width: 60px;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+
+nav a{
+    color: white;
+    font-weight: 500;
+}
+
+nav li a:hover{
+    color: #da2535;
+    transition: 1s;
+}
+
+
+.btn-entre{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.btn-entre button:hover{
+    background-color: #0b1421;
+  
+}
+
+.btn-entre button{
+    background-color: #da2535;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    transition: ease 1s;
+}
+
+.btn-entre a{
+    color: #fff;
+    font-size: 17px;
+}
+.container-neymar{/*O CONTAINER PEGA TODO O ELEMENTO DENTRO DELE*/
+    margin-left: 14%;
+    margin-top: 12%;
+    max-width: 100%;
+}
+.meio-neymar h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.meio-neymar p{
+    color: #f9f9f9;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 25px;/* espaçamento no paragrafos*/
+}
+
+.btn{
+    background-color: #da2535;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    width: 150px;
+}
+
+.placar{/*O CONTAINER PEGA TODO O ELEMENTO DENTRO DELE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 6rem;
+}
+
+.placar img{
+    width: 100px;
+    height: auto;
+}
+
+.placar h3{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.placar h2,p{
+    font-size: 62px;
+}
+
+#bg-white p{
+    font-size: 12px;
+    color: #515151;
+    line-height: 16px;
+}
+
+.bg-hero{
+    background: url(/img/wallapaper2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 80vh;
+    width: 100%;
+}
+#bg-white{
+    position: absolute;
+    background-color: #fff;
+    width: 550px;
+    padding: 50px;
+    top: 163%;
+    left: 28%;
+}
+
+#bg-white h1{
+    color: #0b1421;
+    margin-bottom: 10px;
+    border-left: solid 2px #da2535;
+}
+
+#bg-white{
+    color: #da2535;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.cards img{
+    width: 300px;
+    height: auto;
+}
+
+.cards p{
+    font-size: 10px;
+    font-weight: 600;
+    color: #da2535;
+}
+
+.cards span{
+    font-size: 10px;
+    font-weight: 600;
+    color: #0b1421;
+}
+
+.cards h4{
+    margin-top: 1rem;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem;
+    gap: 1rem;
+    text-align: left;
+}
+
+.noticias h1{
+    padding-top: 4rem;
+    margin-left: 15%;
+
+}
+  
+.noticias button{
+    margin-top: 2rem;
+   
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+.paragrafo{
+   line-height: 10px;
+   justify-content: center;
+   
+}
+.paragrafo h4{
+    line-height: 19px;
+    font-size: 15px;
+    display: flex;
+    
+}
+
+footer{
+    background-color: #0B1421;
+    padding: 4rem;
+
+}
+
+.card-footer p{
+    font-size: 13px;
+    line-height: 30px;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+
+.card-footer h1{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8rem;
+    flex-wrap: wrap;
+    margin-left: 15%;
+ 
+}
+
+
+
+   
